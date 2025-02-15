@@ -21,7 +21,11 @@ namespace SchoolApp
     {
         public TeachersWindow()
         {
+            DataContext = this;
+            //bl = new bl;
+            //Teachers = bl.GetTeachers();
             InitializeComponent();
         }
+        //public List<Teacher> Teachers { get; set; }
     }
 }
