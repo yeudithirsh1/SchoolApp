@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp", "SchoolApp\SchoolApp.csproj", "{C1ACC6AE-ADA3-446C-B812-9015C1700C40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "SchoolApp\GUI.csproj", "{C1ACC6AE-ADA3-446C-B812-9015C1700C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3F3570AE-E8A9-4EC2-8A46-DEB62F169388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{45089042-D81A-4F9A-8C26-4B0DD5FACFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENTITES", "ENTITES\ENTITES.csproj", "{C433B9BC-53D8-45EE-B28D-ADA9D332690D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,23 @@ Global
 		{C1ACC6AE-ADA3-446C-B812-9015C1700C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1ACC6AE-ADA3-446C-B812-9015C1700C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1ACC6AE-ADA3-446C-B812-9015C1700C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3570AE-E8A9-4EC2-8A46-DEB62F169388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3570AE-E8A9-4EC2-8A46-DEB62F169388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3570AE-E8A9-4EC2-8A46-DEB62F169388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3570AE-E8A9-4EC2-8A46-DEB62F169388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45089042-D81A-4F9A-8C26-4B0DD5FACFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45089042-D81A-4F9A-8C26-4B0DD5FACFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45089042-D81A-4F9A-8C26-4B0DD5FACFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45089042-D81A-4F9A-8C26-4B0DD5FACFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C433B9BC-53D8-45EE-B28D-ADA9D332690D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C433B9BC-53D8-45EE-B28D-ADA9D332690D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C433B9BC-53D8-45EE-B28D-ADA9D332690D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C433B9BC-53D8-45EE-B28D-ADA9D332690D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EFFCE1D-9070-4518-8BF9-553B2B6B86CA}
 	EndGlobalSection
 EndGlobal

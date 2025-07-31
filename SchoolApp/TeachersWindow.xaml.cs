@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BLL;
+using ENTITES.Models;
+using ENTITES;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,10 +25,10 @@ namespace SchoolApp
         public TeachersWindow()
         {
             DataContext = this;
-            //bl = new bl;
-            //Teachers = bl.GetTeachers();
+            function bl = new function();
+            Teachers = bl.LoadTeachersDetails();
             InitializeComponent();
         }
-        //public List<Teacher> Teachers { get; set; }
+        public List<Teacher> Teachers { get; set; }
     }
 }
